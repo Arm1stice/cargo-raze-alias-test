@@ -1,0 +1,13 @@
+[package]
+name = "cargo-raze-alias-test"
+version = "0.1.0"
+authors = ["Wyatt Calandro <wyatt@wcalandro.com>"]
+edition = "2018"
+license = "MIT"
+description = "Test crate for cargo-raze's alias test"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4"
+old_log = { package = "log", version = "0.3" }
